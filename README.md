@@ -81,6 +81,7 @@ rpcinfo -p localhost | grep -E "portmapper|100000"
 Code:
 rpcinfo -p | grep nfs
 rpcinfo -p | grep portmapper
+
 <img width="547" height="436" alt="z7986996644882_4dd7d28e8dcea919e769837096bfcf7f" src="https://github.com/user-attachments/assets/9329bc17-c91a-4cfe-801a-3201a12ce8b1" />
 
 ## Câu 7 (1 điểm)
