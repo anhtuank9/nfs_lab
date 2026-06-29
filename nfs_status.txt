@@ -1,0 +1,14 @@
+● nfs-server.service - NFS server and services
+     Loaded: loaded (/usr/lib/systemd/system/nfs-server.service; enabled; preset: enabled)
+     Active: active (exited) since Mon 2026-06-29 01:49:19 UTC; 12min ago
+ Invocation: 8791ea9da13d4b22a76c2b1105b47732
+       Docs: man:rpc.nfsd(8)
+             man:exportfs(8)
+    Process: 549290 ExecStartPre=/usr/sbin/exportfs -r (code=exited, status=0/SUCCESS)
+    Process: 549292 ExecStart=/bin/sh -c /usr/sbin/nfsdctl autostart || /usr/sbin/rpc.nfsd (code=exited, status=0/SUCCESS)
+   Main PID: 549292 (code=exited, status=0/SUCCESS)
+   Mem peak: 1.7M
+        CPU: 16ms
+
+Jun 29 01:49:19 ip-172-31-42-59 systemd[1]: Starting nfs-server.service - NFS server and services...
+Jun 29 01:49:19 ip-172-31-42-59 systemd[1]: Finished nfs-server.service - NFS server and services.
