@@ -31,6 +31,7 @@ fi
 ```
 Code: 
 systemctl status nfs-kernel-server
+
 systemctl status rpcbind
 <img width="1155" height="882" alt="z7986981479466_9d6baa66b7a2208e91c4468cd843aa53" src="https://github.com/user-attachments/assets/212b1f7e-b249-4b44-aa2b-6676208b7e13" />
 
